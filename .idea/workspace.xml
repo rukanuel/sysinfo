@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4434cc1-67da-4b98-b1a6-24189073005a" name="Changes" comment="Add javadoc funct">
+    <list default="true" id="f4434cc1-67da-4b98-b1a6-24189073005a" name="Changes" comment="Update version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +117,7 @@
       <workItem from="1730804236703" duration="1112000" />
       <workItem from="1730810100974" duration="62000" />
       <workItem from="1730810808812" duration="953000" />
+      <workItem from="1730811978069" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
@@ -150,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730811163887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add javadoc funct with some test">
+      <option name="closed" value="true" />
+      <created>1730811992508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730811992508</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update version">
+      <option name="closed" value="true" />
+      <created>1730812024420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730812024420</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +186,8 @@
     <MESSAGE value="Update readme.md adn pom.xml" />
     <MESSAGE value="Add pom.xml example in readme.md" />
     <MESSAGE value="Add javadoc funct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add javadoc funct" />
+    <MESSAGE value="Add javadoc funct with some test" />
+    <MESSAGE value="Update version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version" />
   </component>
 </project>
