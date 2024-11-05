@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4434cc1-67da-4b98-b1a6-24189073005a" name="Changes" comment="Update readme.md adn pom.xml">
+    <list default="true" id="f4434cc1-67da-4b98-b1a6-24189073005a" name="Changes" comment="Add pom.xml example in readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/FileSystemInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/FileSystemInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.sysinfo-1.0.0.jar.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sysinfo [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sysinfo [org.apache.maven.plugins:maven-deploy-plugin:3.1.2:deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sysinfo [org.apache.maven.plugins:maven-jar-plugin:3.2.0:jar].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sysinfo [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/rukanuel/IdeaProjects/sysinfo/src/main/java/com/rukanuel/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.30522564&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "JAR Application.sysinfo-1.0.0-javadoc.jar.executor": "Run",
+    "JAR Application.sysinfo-1.0.0.jar.executor": "Run",
+    "Maven.sysinfo [clean].executor": "Run",
+    "Maven.sysinfo [compile].executor": "Run",
+    "Maven.sysinfo [org.apache.maven.plugins:maven-deploy-plugin:3.1.2:deploy].executor": "Run",
+    "Maven.sysinfo [org.apache.maven.plugins:maven-jar-plugin:3.2.0:jar].executor": "Run",
+    "Maven.sysinfo [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "onboarding.tips.debug.path": "/home/rukanuel/IdeaProjects/sysinfo/src/main/java/com/rukanuel/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.30522564",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="JAR Application.sysinfo-1.0.0-javadoc.jar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rukanuel.sysinfo.Main" />
       <module name="sysinfo" />
@@ -80,12 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sysinfo-1.0.0-javadoc.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/sysinfo-1.0.0-javadoc.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="sysinfo-1.0.0.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/sysinfo-1.0.0.jar" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.sysinfo-1.0.0-javadoc.jar" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.sysinfo-1.0.0.jar" />
       </list>
@@ -108,7 +116,8 @@
       <updated>1730801784476</updated>
       <workItem from="1730801785530" duration="1482000" />
       <workItem from="1730804236703" duration="1112000" />
-      <workItem from="1730810100974" duration="38000" />
+      <workItem from="1730810100974" duration="62000" />
+      <workItem from="1730810808812" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
@@ -126,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730804974564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add pom.xml example in readme.md">
+      <option name="closed" value="true" />
+      <created>1730810155258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730810155258</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ini" />
     <MESSAGE value="Update readme.md adn pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme.md adn pom.xml" />
+    <MESSAGE value="Add pom.xml example in readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pom.xml example in readme.md" />
   </component>
 </project>
