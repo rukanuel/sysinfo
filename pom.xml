@@ -10,11 +10,11 @@
 
     <groupId>com.rukanuel</groupId>
     <artifactId>sysinfo</artifactId>
-    <version>1.0.2</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>Sysinfo</name>
-    <description>A system information library for Java 21 that provides details about the system's file system and other related information.</description>
+    <description>A system information API for Java 21 that provides details about the system's file system and other related information.</description>
     <url>https://github.com/rukanuel/sysinfo</url>
 
     <properties>
@@ -24,20 +24,16 @@
     </properties>
 
     <build>
+        <resources>
+
+            <resource>
+                <directory>${project.basedir}</directory>
+                <includes>
+                    <include>LICENSE</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.11.1</version>
-                <executions>
-                    <execution>
-                        <id>attach-javadocs</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -46,7 +42,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.rukanuel.sysinfo.Main</mainClass> <!-- Specify your Main class here -->
+                            <mainClass>com.rukanuel.sysinfo.Kernel</mainClass> <!-- Specify your Main class here -->
                         </manifest>
                     </archive>
                 </configuration>

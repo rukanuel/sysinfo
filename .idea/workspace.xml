@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4434cc1-67da-4b98-b1a6-24189073005a" name="Changes" comment="Update version maven minimal">
+    <list default="true" id="f4434cc1-67da-4b98-b1a6-24189073005a" name="Changes" comment="Update version maven minimal 2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/FileSystemInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/FileSystemInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/Kernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/MemoryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/MemoryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/OSInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/OSInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/ProcessorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/ProcessorInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukanuel/sysinfo/SystemInfo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +76,8 @@
   }
 }</component>
   <component name="RunManager" selected="JAR Application.sysinfo-1.0.0-javadoc.jar">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rukanuel.sysinfo.Main" />
+    <configuration name="Kernel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rukanuel.sysinfo.Kernel" />
       <module name="sysinfo" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +100,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JAR Application.sysinfo-1.0.0-javadoc.jar" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Kernel" />
         <item itemvalue="JAR Application.sysinfo-1.0.0.jar" />
       </list>
     </recent_temporary>
@@ -116,7 +124,7 @@
       <workItem from="1730804236703" duration="1112000" />
       <workItem from="1730810100974" duration="62000" />
       <workItem from="1730810808812" duration="953000" />
-      <workItem from="1730811978069" duration="773000" />
+      <workItem from="1730811978069" duration="1758000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
@@ -174,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730812695976</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update version maven minimal 2">
+      <option name="closed" value="true" />
+      <created>1730812757483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730812757483</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +212,7 @@
     <MESSAGE value="Add javadoc funct with some test" />
     <MESSAGE value="Update version" />
     <MESSAGE value="Update version maven minimal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update version maven minimal" />
+    <MESSAGE value="Update version maven minimal 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version maven minimal 2" />
   </component>
 </project>
