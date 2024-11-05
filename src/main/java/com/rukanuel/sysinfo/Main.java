@@ -1,5 +1,14 @@
 package com.rukanuel.sysinfo;
 
+import java.io.File;
+
+/**
+ * The {@code FileSystemInfo} class provides methods to retrieve information about the file system,
+ * including total disk space, usable disk space, and free disk space on the primary root directory.
+ * <p>
+ * This class utilizes the Java {@link File} class to access system file properties.
+ * </p>
+ */
 public class Main {
     public static void main(String[] args) {
         System.out.println("System Information:");
