@@ -47,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "JAR Application.sysinfo-1.0.0-javadoc.jar.executor": "Run",
-    "JAR Application.sysinfo-1.0.0.jar.executor": "Run",
-    "Maven.sysinfo [clean].executor": "Run",
-    "Maven.sysinfo [compile].executor": "Run",
-    "Maven.sysinfo [org.apache.maven.plugins:maven-deploy-plugin:3.1.2:deploy].executor": "Run",
-    "Maven.sysinfo [org.apache.maven.plugins:maven-jar-plugin:3.2.0:jar].executor": "Run",
-    "Maven.sysinfo [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "/home/rukanuel/IdeaProjects/sysinfo/src/main/java/com/rukanuel/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30522564",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.sysinfo-1.0.0-javadoc.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.sysinfo-1.0.0.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sysinfo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sysinfo [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sysinfo [org.apache.maven.plugins:maven-deploy-plugin:3.1.2:deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sysinfo [org.apache.maven.plugins:maven-jar-plugin:3.2.0:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sysinfo [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/rukanuel/IdeaProjects/sysinfo/src/main/java/com/rukanuel/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30522564&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JAR Application.sysinfo-1.0.0-javadoc.jar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rukanuel.sysinfo.Main" />
