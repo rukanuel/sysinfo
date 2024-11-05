@@ -9,6 +9,10 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
+    <name>Sysinfo</name>
+    <description>A system information library for Java 21 that provides details about the system's file system and other related information.</description>
+    <url>https://github.com/rukanuel/sysinfo</url>
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -32,5 +36,27 @@
             </plugin>
         </plugins>
     </build>
+
+    <developers>
+        <developer>
+            <id>rukanuel</id>
+            <name>Emanuel Rukavina</name>
+            <email>rukanuel@gmail.com</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:rukanuel/sysinfo.git</connection>
+        <developerConnection>scm:git:git@github.com:rukanuel/sysinfo.git</developerConnection>
+        <url>https://github.com/rukanuel/sysinfo</url>
+    </scm>
 
 </project>
